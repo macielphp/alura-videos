@@ -54,6 +54,11 @@
     gap: 15px;
 }
 
+/* VÍDEO */
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
 
 /* RODAPÉ */
 
@@ -96,6 +101,7 @@
 }
 
 @media (min-width: 1440px) {
+    /* Menu lateral esquerda */
     .menu__container {
         width: 239px;
         overflow: scroll;
@@ -109,6 +115,34 @@
     .menu__lista {
         height: auto;
         padding: 20px 17px 20px 15px;
+        gap: 15px;
     }
+
+    .menu__itens {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .menu__lista:nth-child(3) {
+        flex-direction:column-reverse;
+    }
+/*  .jogos {
+        order: 3
+    }
+
+    .filmes {
+        order: 2
+    }
+
+    .premium {
+        order: 1;
+    }
+
+    .maispagina {
+        order: 4;
+    } */
 }
+
+
 
